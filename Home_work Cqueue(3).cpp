@@ -88,7 +88,6 @@ void display_queue(queue *p3) {
 	cout << endl;
 }
 void cEnqueue(Cqueue *p1,queue *p2,stack *p3) {
-	int item;
 	for (int i = p3->top; i >= 0; i--) {
 		if ((p1->rear == size - 1 && p1->front == 0) || (p1->front == p1->rear + 1)) {
 			cout << "\nCircular Queue is full \n\n";
