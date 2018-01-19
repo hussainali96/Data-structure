@@ -26,7 +26,7 @@ void pop(stack *p2) {
 	item = p2->data[p2->top];
 	p2->data[p2->top] = NULL;
 	cout << item << endl;
-	cout << " Successed push opreation \n\n";
+	cout << " Successed pop opreation \n\n";
 	p2->top--;
 
 }
