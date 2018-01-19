@@ -2,13 +2,12 @@
 using namespace  std;
 #define size 12
 #define size1 6
-#define size2 6
 struct stack {
-	int data[size2];
+	int data[size1];
 	int top;
 };
 struct queue {
-	int data[size2];
+	int data[size1];
 	int front,rear;
 };
 struct Cqueue {
@@ -54,7 +53,7 @@ void display_stack(stack *p3) {
 }
 void enqueue(queue *p1) {
 	int item;
-	if (p1->rear ==size2 - 1) {
+	if (p1->rear ==size1 - 1) {
 		cout << "\nQueue is full \n\n";
 		return;
 	}
