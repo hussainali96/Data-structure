@@ -174,7 +174,7 @@ int main()
 	cq.rear = -1;
 	int c;
 	do {
-		cout << "1:push_stack 2:dis_stack 3:enq_queue 4:dis_queue 5:cEnqueue  6:cDequeue  7:display_Cqueue  8:Exit\n ";
+		cout << "1:push_stack 2:dis_stack 3:enq_queue 4:dis_queue 5:Modify_cEnqueue  6:cDequeue  7:display_Cqueue  8:Exit\n ";
 		cout << "choice : ";
 		cin >> c;
 		switch (c)
